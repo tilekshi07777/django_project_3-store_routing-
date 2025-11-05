@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products Page</title>
+    <style>
+        body {
+            background: #f4f4f9;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 60px;
+        }
+        h1 {
+            color: #444;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: white;
+            margin: 10px auto;
+            width: 50%;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            padding: 15px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Products</h1>
+    <ul>
+        <li> Laptop</li>
+        <li> Smartphone</li>
+        <li> Headphones</li>
+        <li> Smartwatch</li>
+    </ul>
+    <a href="{% url 'index' %}">Back to Home</a>
+</body>
+</html>

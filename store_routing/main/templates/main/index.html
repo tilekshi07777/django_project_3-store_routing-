@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Store</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #a8edea, #fed6e3);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 80px;
+        }
+        h1 {
+            color: #333;
+        }
+        a {
+            background-color: #ff5f6d;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        a:hover {
+            background-color: #ffc371;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Store</h1>
+    <p>Explore our amazing collection of products!</p>
+    <a href="{% url 'products' %}">Go to Products</a>
+</body>
+</html>
